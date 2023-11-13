@@ -35,13 +35,44 @@ f=d+e
 print(f)
 #OR 
 print(d+e)
-#all are same like this
+
+#sub
+d=10
+e=20
+
+f=d-e
+print(f)
+
+#mul
+d=10
+e=20
+
+f=d*e
+print(f)
+
+#division
+d=10
+e=20
+
+f=d/e
+print(f)
+
+#modulus
+d=10
+e=20
+
+f=d%e
+print(f)
+
+
 #expo
 d=2
 e=2
 
-f=d**e  #exponential 
+f=(d**e) #exponential 
 print(f)
+
+
 #floor division  is dividing one number by another and then rounding the result to the closest integer that is smaller 
 d=10
 e=20
