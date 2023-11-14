@@ -28,3 +28,19 @@ trial("Hello "," Akash")  #--> the first value is for x and second for y
                           #--->> if we give or pass one value gives error
 
 
+#function as argument
+
+list=['car ','bus ','bike ']
+
+def loop(x):
+    print(x*3)           #--->>it will print that value three times
+
+loop(list)
+
+
+def map_func(crazy,list):
+    for item in list:
+        crazy(item)
+
+
+map_func(loop,list)
