@@ -1,5 +1,6 @@
 #--------------------LIST----------------
-#It is use to store multiple item in sngle variable
+
+#It is use to store multiple item in single variable
 
 list=['car','bike',30,3.2,True]
 print(list)
