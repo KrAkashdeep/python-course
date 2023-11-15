@@ -25,16 +25,17 @@ print(tuple[1])
 
 print(tuple[1:4])
 
+
+#CHANGE OR ADD
+
 #we cant add or change in tuple directly
 
 # To  change first convert the tuples in list and change or add items
 
 z=('bike','car',3,3.5,True,'bike')
 
-y=list(z)
+y=list(z)          #----->>> here wee conert the tuple in list
 y[1]="akash"
 
-x=tuple(y)
+x=tuple(y)       #--->>> here it convert in tuple again before print remove all tuple variable
 print(x)
-
-
