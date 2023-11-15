@@ -1,17 +1,17 @@
 #------------------CLASS--------------------------
 
-#created class
+# created class
 
-# class Human:
-#     x=5
+class Human:
+    x=5
 
-# #to print class value
+#to print class value
 
-# #create object first
+#create object first
 
-# h=Human()      #--->> here " h " is the object
+h=Human()      #--->> here " h " is the object
 
-# print(h.x)
+print(h.x)
 
 
 
@@ -42,6 +42,13 @@ h1.methods()
 
 del h1
 
+#now this can't work e can't modify value
+
 h1.name="raj"
 h1.age=26
 h1.methods()
+
+#class not be empty if you want to create empty just write "pass"
+
+class Human:
+    pass
