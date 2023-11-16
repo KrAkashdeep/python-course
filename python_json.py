@@ -9,39 +9,39 @@
 #it have key and value pair and some key have value in dictionary format
 
 
-# import json
+import json
 
-# person='{"name":"akash","language":["english","hindi"] }'
+person='{"name":"akash","language":["english","hindi"] }'
 
 
-# per_dict=json.loads(person)
+per_dict=json.loads(person)
 
-# print(per_dict)
+print(per_dict)
 
-# print(per_dict['language'])
+print(per_dict['language'])
 
 
 # ---------------PRINT DATA FROM OTHER JSON FILE------------------------------
 
 
-# import json
+import json
 
-# with open("data.json")as f:
-#     data=json.load(f)
+with open("data.json")as f:
+    data=json.load(f)
 
-# print(data)                  #--->>it will print data in single line from the file data.json 
+print(data)                  #--->>it will print data in single line from the file data.json 
 
-# print(json.dumps(data,indent=4,sort_keys=True))
+print(json.dumps(data,indent=4,sort_keys=True))
 
 
 
-# import json
+import json
 
-# person={"name":"akash","language":"hindi"}
+person={"name":"akash","language":"hindi"}
 
-# pr_json=json.dumps(person)
+pr_json=json.dumps(person)
 
-# print(pr_json)
+print(pr_json)
 
 
 """
